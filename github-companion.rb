@@ -1,5 +1,5 @@
 class GithubCompanion < Formula
-  desc "GitHub companion"
+  desc "Small tool to interact with GitHub API"
   homepage "https://github.com/whitepages/github-companion"
   url "https://github.com/whitepages/github-companion/releases/download/v0.2.0/github-companion-0.2.0.jar",
       :using => :nounzip

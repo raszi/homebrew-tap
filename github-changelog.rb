@@ -1,5 +1,5 @@
 class GithubChangelog < Formula
-  desc "GitHub changelog"
+  desc "Changelog generator based on GitHub PR titles"
   homepage "https://github.com/whitepages/github-changelog"
   url "https://github.com/whitepages/github-changelog/releases/download/v0.1.0/github-changelog-0.1.0.jar",
       :using => :nounzip
