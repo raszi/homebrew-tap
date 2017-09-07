@@ -1,5 +1,5 @@
 class Colorize < Formula
-  desc "Colorize"
+  desc "Log colorizer tool"
   homepage "https://github.com/raszi/colorize"
   head "https://github.com/raszi/colorize.git"
   url "https://github.com/raszi/colorize/archive/v0.3.4.tar.gz"
