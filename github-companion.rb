@@ -1,9 +1,9 @@
 class GithubCompanion < Formula
   desc "Small tool to interact with GitHub API"
   homepage "https://github.com/whitepages/github-companion"
-  url "https://github.com/whitepages/github-companion/releases/download/v0.2.0/github-companion-0.2.0.jar",
+  url "https://github.com/whitepages/github-companion/releases/download/v0.3.0/github-companion-0.3.0.jar",
       :using => :nounzip
-  sha256 "d6b2ff157b696b7d8a270377f44d69ebe79a7d5bb25619e33c35a08c98f5f431"
+  sha256 "5842a4a83fdcba85cfebc6af5d65e7eb6f08c786ef8e1b660987471e0e300df1"
 
   bottle :unneeded
   depends_on :java
@@ -12,7 +12,7 @@ class GithubCompanion < Formula
 
   def install
     bin.install "github-companion"
-    pkgshare.install "github-companion-0.2.0.jar"
+    pkgshare.install "github-companion-0.3.0.jar"
   end
 end
 
@@ -32,5 +32,5 @@ index 0000000..5a91c75
 +    -XX:+UseConcMarkSweepGC \
 +    -XX:+CMSClassUnloadingEnabled \
 +    -Xverify:none \
-+    -jar "$(brew --cellar)/github-companion/0.2.0/share/github-companion/github-companion-0.2.0.jar" \
++    -jar "$(brew --cellar)/github-companion/0.3.0/share/github-companion/github-companion-0.3.0.jar" \
 +    "$@"
