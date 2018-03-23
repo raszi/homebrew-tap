@@ -1,9 +1,9 @@
 class GithubChangelog < Formula
   desc "Changelog generator based on GitHub PR titles"
   homepage "https://github.com/whitepages/github-changelog"
-  url "https://github.com/whitepages/github-changelog/releases/download/v0.1.0/github-changelog-0.1.0.jar",
+  url "https://github.com/whitepages/github-changelog/releases/download/v0.2.0/github-changelog-0.2.0.jar",
       :using => :nounzip
-  sha256 "1d8657caccf35ae5d4607710b836f81ff99b5cd47300a542fdac891245db0606"
+  sha256 "78afa8969cc116c65c3f14873d711cd14a29dc1e95fb2e4b49854b79ad31a3a3"
 
   bottle :unneeded
   depends_on :java
@@ -12,7 +12,7 @@ class GithubChangelog < Formula
 
   def install
     bin.install "github-changelog"
-    pkgshare.install "github-changelog-0.1.0.jar"
+    pkgshare.install "github-changelog-0.2.0.jar"
   end
 end
 
@@ -32,5 +32,5 @@ index 0000000..5a91c75
 +    -XX:+UseConcMarkSweepGC \
 +    -XX:+CMSClassUnloadingEnabled \
 +    -Xverify:none \
-+    -jar "$(brew --cellar)/github-changelog/0.1.0/share/github-changelog/github-changelog-0.1.0.jar" \
++    -jar "$(brew --cellar)/github-changelog/0.2.0/share/github-changelog/github-changelog-0.2.0.jar" \
 +    "$@"
