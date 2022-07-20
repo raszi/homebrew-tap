@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Eq < Formula
-  desc "edn query"
+  desc "Tool for querying edn files"
   homepage "https://github.com/raszi/eq"
   url "https://github.com/raszi/eq/releases/download/v0.1.1/eq-0.1.1.jar",
       using: :nounzip
