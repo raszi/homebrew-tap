@@ -2,8 +2,8 @@
 
 class GithubChangelog < Formula
   desc "Changelog generator based on GitHub PR titles"
-  homepage "https://github.com/whitepages/github-changelog"
-  url "https://github.com/whitepages/github-changelog/releases/download/v0.2.0/github-changelog-0.2.0.jar",
+  homepage "https://github.com/ekataglobal/github-changelog"
+  url "https://github.com/ekataglobal/github-changelog/releases/download/v0.2.0/github-changelog-0.2.0.jar",
       using: :nounzip
   sha256 "78afa8969cc116c65c3f14873d711cd14a29dc1e95fb2e4b49854b79ad31a3a3"
 
