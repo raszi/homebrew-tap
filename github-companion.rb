@@ -5,7 +5,6 @@ class GithubCompanion < Formula
       :using => :nounzip
   sha256 "d4c4cd7d4a7348f3c7ea1fd76a97cb722c6a862057bf4b6f350d318536b0707a"
 
-  bottle :unneeded
   depends_on :java
 
   patch :DATA

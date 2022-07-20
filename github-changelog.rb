@@ -5,7 +5,6 @@ class GithubChangelog < Formula
       :using => :nounzip
   sha256 "78afa8969cc116c65c3f14873d711cd14a29dc1e95fb2e4b49854b79ad31a3a3"
 
-  bottle :unneeded
   depends_on :java
 
   patch :DATA

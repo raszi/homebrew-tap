@@ -5,7 +5,6 @@ class Eq < Formula
       :using => :nounzip
   sha256 "fa0633bb126efb86ce46bb9d390dd2792b951d33d4c749d792c0bc6ce54d43bc"
 
-  bottle :unneeded
   depends_on :java
 
   patch :DATA

@@ -5,7 +5,6 @@ class Colorize < Formula
   url "https://github.com/raszi/colorize/archive/v0.3.4.tar.gz"
   sha256 "25c876a0ca3f56b84b9954ece169d87888e471127140f7bfd4ef6580969c46e6"
 
-  bottle :unneeded
   patch :DATA
 
   def install
