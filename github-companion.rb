@@ -4,7 +4,7 @@ class GithubCompanion < Formula
   desc "Small tool to interact with GitHub API"
   homepage "https://github.com/whitepages/github-companion"
   url "https://github.com/whitepages/github-companion/releases/download/v0.5.0/github-companion-0.5.0.jar",
-      :using => :nounzip
+      using: :nounzip
   sha256 "d4c4cd7d4a7348f3c7ea1fd76a97cb722c6a862057bf4b6f350d318536b0707a"
 
   depends_on "openjdk"

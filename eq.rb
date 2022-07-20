@@ -4,7 +4,7 @@ class Eq < Formula
   desc "edn query"
   homepage "https://github.com/raszi/eq"
   url "https://github.com/raszi/eq/releases/download/v0.1.1/eq-0.1.1.jar",
-      :using => :nounzip
+      using: :nounzip
   sha256 "fa0633bb126efb86ce46bb9d390dd2792b951d33d4c749d792c0bc6ce54d43bc"
 
   depends_on "openjdk"
