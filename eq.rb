@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Eq < Formula
   desc "edn query"
   homepage "https://github.com/raszi/eq"

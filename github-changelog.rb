@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class GithubChangelog < Formula
   desc "Changelog generator based on GitHub PR titles"
   homepage "https://github.com/whitepages/github-changelog"

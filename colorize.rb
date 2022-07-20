@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Colorize < Formula
   desc "Log colorizer tool"
   homepage "https://github.com/raszi/colorize"
