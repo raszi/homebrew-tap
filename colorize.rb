@@ -3,9 +3,9 @@
 class Colorize < Formula
   desc "Log colorizer tool"
   homepage "https://github.com/raszi/colorize"
-  head "https://github.com/raszi/colorize.git"
   url "https://github.com/raszi/colorize/archive/v0.3.4.tar.gz"
   sha256 "25c876a0ca3f56b84b9954ece169d87888e471127140f7bfd4ef6580969c46e6"
+  head "https://github.com/raszi/colorize.git"
 
   patch :DATA
 
