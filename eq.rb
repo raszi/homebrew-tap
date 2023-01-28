@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Eq < Formula
   desc "Tool for querying edn files"
   homepage "https://github.com/raszi/eq"

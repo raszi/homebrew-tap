@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class GithubCompanion < Formula
   desc "Small tool to interact with GitHub API"
   homepage "https://github.com/ekataglobal/github-companion"
